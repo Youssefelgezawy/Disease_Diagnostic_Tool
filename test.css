@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(189, 183, 176, 0.826);
+    color: white;
+}
+.container{
+    width: 70%;
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+}
+.list{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.btn{
+    flex:48%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    background-color:#4caf50;
+    color:white;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #237728;
+}
+.diagnosis{
+    outline: none;
+    border: none;
+    font-size: 25px;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(6, 6, 237, 0.571);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.diagnosis:hover{
+    background-color:blue;
+}
+.resultcontaioner{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+}
+.resultbox{
+    height: 20px;
+    background: linear-gradient(tor ight,#f4f4f4,#eeeeee);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    
+
+}
